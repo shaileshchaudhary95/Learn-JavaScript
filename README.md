@@ -1,4 +1,4 @@
-# learn_Javascript
+# Learn-JavaScript
 
 #add task 1 --- pair 
 
