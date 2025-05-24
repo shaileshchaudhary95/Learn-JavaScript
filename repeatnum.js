@@ -31,9 +31,10 @@ function dublicate(arr) {
             vlauestore[num] = 1;
         }
     }
-
+    
+   // console.log(vlauestore)
     return repeatValue;
 }
 
-console.log(dublicate([1, 2, 3, 6, 3, 6, 1])); 
+console.log(dublicate([1, 2, 3, 6, 3, 6, 1]));
 console.log(dublicate([1, 2, 3, 4, 3])); 
