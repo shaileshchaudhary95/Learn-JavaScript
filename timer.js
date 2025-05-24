@@ -1,7 +1,11 @@
 /*
+
 Task 4:
+
 create timer method which is return array of seconds at the last second
+
 input : 5
+
 result : 
  time 1 second
  time 2 second
@@ -21,9 +25,12 @@ function createTimer(seconds) {
 
             result.push(i);
 
-            if (i === seconds - 1) {
-                console.log('result is', result);
-            }
+            setTimeout(() => {
+                if (i === seconds - 1) {
+                    console.log('result is', result);
+                }
+
+            }, 1000)
 
         }, i * 1000);
     }
