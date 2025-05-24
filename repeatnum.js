@@ -33,7 +33,7 @@ function dublicate(arr) {
     }
     
    // console.log(vlauestore)
-    return repeatValue;
+    return repeatValue.sort();
 }
 
 console.log(dublicate([1, 2, 3, 6, 3, 6, 1]));
