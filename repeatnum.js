@@ -35,5 +35,5 @@ function dublicate(arr) {
     return repeatValue;
 }
 
-console.log(dublicate([1, 2, 3, 6, 3, 6, 1])); // Output: [1, 3, 6]
-console.log(dublicate([1, 2, 3, 4, 3])); // Output: [3]
+console.log(dublicate([1, 2, 3, 6, 3, 6, 1])); 
+console.log(dublicate([1, 2, 3, 4, 3])); 
